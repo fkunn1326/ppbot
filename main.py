@@ -43,4 +43,4 @@ def setup(bot: Bot):
     print(name, description, contents)
     client.load_extension(f"cogs.{name}")
 
-client.run(os.environ['DISCORD_TOKEN'])
+client.run(DISCORD_TOKEN)
