@@ -1,11 +1,12 @@
 {
-    "section1":{
-        "commandname":"key1",
-        "description": 1
-    },
-
-    "section2":{
-        "key":"key2",
-        "number": 2
-    }
+  "section1":{
+    "name":"name",
+    "description":"description",
+    "contents":"contents"
+  },
+  "section2":{
+    "name":"日本語もok",
+    "description":"てすと～～！",
+    "contents":"一応動いてくれ"
+  }
 }
