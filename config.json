@@ -1,0 +1,11 @@
+{
+    "section1":{
+        "commandname":"key1",
+        "description": 1
+    },
+
+    "section2":{
+        "key":"key2",
+        "number": 2
+    }
+}
