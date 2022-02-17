@@ -11,10 +11,10 @@ config.jsonになんかしら入れたら、その通りスラッシュコマン
     description:description, <- 説明です
     contents:contents <- コマンド打ったら出るやつです
   },
-  section2:{ <-適当に名前つけてください
-    name:name2, <- 名前です
-    description:description2, <- 説明です
-    contents:contents2 <- コマンド打ったら出るやつです
+  section2:{ 
+    name:name2, 
+    description:description2, 
+    contents:contents2 
   } 
 }
 ```
