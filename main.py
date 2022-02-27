@@ -1,6 +1,7 @@
 import os
 from discord.ext import commands
 from discord_slash import SlashCommand
+from server import keep_alive
 import json
 
 os.makedirs("./cogs", exist_ok=True)
@@ -42,5 +43,8 @@ def setup(bot: Bot):
     f.close()
     print(name, description, contents)
     client.load_extension(f"cogs.{name}")
+
+
+keep_alive()
 
 client.run(os.environ['DISCORD_TOKEN'])
